@@ -1,0 +1,31 @@
+.form {
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+.form label {
+	display: block;
+}
+
+#submit {
+	width: 100%;
+}
+
+#results th {
+	font-weight: bold;
+	text-align: center;
+	border-bottom: thick;
+}
+
+
+table, td {
+	border-collapse: collapse;
+	border: thin solid black;
+}
+
+
+
+fieldset button {
+	margin-top: 1em;
+}
