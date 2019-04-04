@@ -12,7 +12,7 @@
 	width: 100%;
 }
 
-#results th {
+.results th {
 	font-weight: bold;
 	text-align: center;
 	border-bottom: thick;
