@@ -1,8 +1,12 @@
-function test() {
+function queryAPI() {
 
-	for(var i = 0; i < 2; i++){
-		insertResults();
-	}
+	var ingredient1 = document.getElementById("i1").value;
+	var ingredient2 = document.getElementById("i2").value;
+	var ingredient3 = document.getElementById("i3").value;
+
+	const div = document.getElementById("results");
+
+	div.innerHTML = "<p>" + ingredient1 + ingredient2 +ingredient3 + "</p>";
 
 }
 
