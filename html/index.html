@@ -5,26 +5,37 @@
 	<meta name="description" content="A website for recipes"/>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/navbar.css">
 </head>
 <body>
 	<h1>Our Beautiful Website</h1>
-	<fieldset class="form">
-		<legend>Ingredients</legend>
-		<label for="i1">Ingredient 1: </label>
-		<input type="text" id="i1"/>
-		<label for="i2">Ingredient 2: </label>
-		<input type="text" id="i2"/>
-		<label for="i3">Ingredient 3: </label>
-		<input type="text" id="i3"/>
-		<button id="submit" onclick="test()">Find Matches</button>
-	</fieldset>
-	<table id="results">
-		<thead>
-			<th>Tasty results</th>
-		</thead>
-		<tbody id="testing">
-		</tbody>
-	</table>
+	<ul>
+		<li><a class="active" href="#home">Home</a></li>
+		<li><a href="search.html">Search</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="#about">About</a></li>
+	</ul>
+	<div>
+		<fieldset class="form">
+			<legend>Ingredients</legend>
+			<label for="i1">Ingredient 1: </label>
+			<input type="text" id="i1"/>
+			<label for="i2">Ingredient 2: </label>
+			<input type="text" id="i2"/>
+			<label for="i3">Ingredient 3: </label>
+			<input type="text" id="i3"/>
+			<button id="submit" onclick="test()">Find Matches</button>
+		</fieldset>
+	</div>
+	<div>
+		<table id="results">
+			<thead>
+				<th>Tasty results</th>
+			</thead>
+			<tbody id="testing">
+			</tbody>
+		</table>
+	</div>
 	<script src="../js/test.js"></script>
 </body>
 </html>
