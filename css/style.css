@@ -1,26 +1,32 @@
-html {
-	background-color: grey;
-}
-
-.form {
+form {
 	display: inline-block;
 	vertical-align: middle;
-	margin: auto;
-
+	float: left;
+	padding: 4px;
+	margin-top: 10px;
 }
 
-.form label { display: block; }
+.form label {
+	display: block;
+}
 
-#submit { width: 100%; }
+#submit {
+	width: 100%;
+}
 
-.results th {
+#results {
 	font-weight: bold;
 	text-align: center;
 	border-bottom: thick;
+	float: left;
+	width: 50%;
 }
 
-h1 {
-	text-align: center;
+div.w3-margin {
+	
+	margin: 0px;
+	margin-left: 10px;
+	
 }
 
 table, td {
@@ -28,12 +34,7 @@ table, td {
 	border: thin solid black;
 }
 
-div {
-	border: thin black;
-	margin: auto;
-	width: 50%;
 
-}
 
 fieldset button {
 	margin-top: 1em;
